@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { View, Text, FlatList, TouchableOpacity } from "react-native";
+import { View, Text, FlatList } from "react-native";
 import OrderItem from '../../components/OrderItem'
 import { Shop } from '../../context/Shop'
 import { styles } from './styles';

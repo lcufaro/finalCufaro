@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import Auth from '../../screens/auth';
+import Auth from './../../screens/auth';
 import Login from '../../screens/login';
 import { Platform } from 'react-native';
 import { COLORS } from '../../../constants/colors';

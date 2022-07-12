@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import ShopNavigator from './stacks/index'
 import AuthNavigator from './stacks/auth'
 import { useState, useEffect } from 'react';
 import TabNavigator from './tab/TabNavigator'

@@ -1,7 +1,7 @@
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { KeyboardAvoidingView } from "react-native";
 import { styles } from './styles';
-import { View, Text, Button } from "react-native";
+import { View, Text } from "react-native";
 import Register from "./Register";
 
 

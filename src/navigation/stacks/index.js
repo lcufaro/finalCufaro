@@ -1,8 +1,5 @@
-import React, { useEffect } from 'react';
-import { View, Text, Button } from "react-native";
+import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import Auth from '../../screens/auth';
-import Home from '../../screens/home';
 import Categories from '../../screens/categories';
 import CategoryBreads from '../../screens/CategoryBreads';
 import BreadDetail from '../../screens/BreadDetail';

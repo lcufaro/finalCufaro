@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Button } from "react-native";
+import { View, Text } from "react-native";
 import { StyleSheet } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -7,7 +7,6 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import ShopNavigator from '../stacks/index';
 import CartNavigator from '../stacks/cart';
 import OrdersNavigator from '../stacks/orders';
-import Cart from '../../screens/Cart';
 
 const BottomTabs = createBottomTabNavigator();
 
